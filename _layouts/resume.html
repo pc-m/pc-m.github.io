@@ -32,13 +32,13 @@
         </div>
 
         <div class="executive-summary no-print" itemprop="description">
-          <p>I am a professional developer with a passion for free software. I want to work on challenging problems, bringing the future a little closer.</p>
+          <p>Développeur passioné du libre et des télécommunication. Je travail sur les plateformes de communications du future.</p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contacté moi</a>
         {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
+        <a class="contact-button not-looking no-print">Je ne suis pas à la recherche d'un emploi.</a>
         {% else %}
         {% endif %}
 
@@ -54,35 +54,47 @@
 
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Proformatique Inc</h3>
-          <h4 class="resume-item-details" itemprop="description">Software Developer &bull; August, 2010 &mdash; November, 2016</h4>
-          <p class="resume-item-copy">Develop and maintain the <a href="http://xivo.solutions">XiVO</a> PBX. All task related to open source software development including but not limited to:</p>
+          <h3 class="resume-item-title" itemprop="name">Wazo</h3>
+          <h4 class="resume-item-details" itemprop="description">Développeur Logiciel &bull; Avril, 2017 &mdash; présent</h4>
+          <p class="resume-item-copy">Developement, maintient et distribution de la technologie <a href="http://wazo.io">Wazo</a>. Toutes tâches relative au développement de logiciels libres, incluant:</p>
           <ul class="resume-item-list">
-            <li>Software development</li>
-            <li>Community management</li>
-            <li>Software packaging</li>
-            <li>Tier 3 support for <a href="http://avencall.com">Avencall</a></li>
-            <li>Quality assurance</li>
-            <li>Documentation redaction</li>
-            <li>Software releases</li>
+            <li>Développement logiciel</li>
+            <li>Maintient de la communauté</li>
+            <li>"Packaging" de la technologie</li>
+            <li>Support technique</li>
+            <li>Assurance qualité</li>
+            <li>Rédaction de la documentation</li>
+            <li>Distribution des logiciels</li>
           </ul>
-          <p class="resume-item-copy">Much more with a dedicated team of awesome people using agile methodologies.</p>
+          <p class="resume-item-copy">Et plus encore avec une équipe dévouée utilisant les méthodes Agiles.</p>
 
+        </div><!-- end of resume-item -->
+
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Proformatique Inc</h3>
+          <h4 class="resume-item-details" itemprop="description">Développeur Logiciel &bull; August, 2010 &mdash; November, 2016</h4>
+          <p class="resume-item-copy">Developement, maintient et distribution du PBX XiVO. Toutes tâches relative au développement de logiciels libres, incluant:</p>
+          <ul class="resume-item-list">
+            <li>Développement logiciel</li>
+            <li>Maintient de la communauté</li>
+            <li>"Packaging" de la technologie</li>
+            <li>Support technique</li>
+            <li>Assurance qualité</li>
+            <li>Rédaction de la documentation</li>
+            <li>Distribution des logiciels</li>
+          </ul>
         </div><!-- end of resume-item -->
 
         <!-- another resume item -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">Caisse Populaire de l'Université Laval</h3>
-          <h4 class="resume-item-details" itemprop="description">Support Agent &bull; 2003 &mdash; August, 2010</h4>
-          <p class="resume-item-copy">As a student I worked part time as a teller and doing many other functions as a replacement. I was also a reference to many co-workers due to my wide knowledge and experience.</p>
-
-        </div><!-- end of resume-item -->
-
-        <!-- by now you're getting the picture... -->
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Caisse Populaire Desjardins de Rouyn-Noranda</h3>
-          <h4 class="resume-item-details" itemprop="description">Teller &bull; 2009 &mdash; 2010</h4>
-          <p class="resume-item-copy">I have spent some months doing clerical work and computer support and later became teller.</p>
+          <h4 class="resume-item-details" itemprop="description">Agent de soutient aux membres &bull; 2003 &mdash; August, 2010</h4>
+          <p class="resume-item-copy">Toutes tâche relatives aux opérations monétaires d'une institution financière:</p>
+          <ul class="resume-item-list">
+            <li>Ouverture de compte</li>
+            <li>Transfers de fondfs internationaux</li>
+          </ul>
 
         </div><!-- end of resume-item -->
 
@@ -100,14 +112,13 @@
 
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">Laval University</h3>
-          <h4 class="resume-item-details" itemprop="description">Bachelor or Business Administration (BBA) &bull; 2006 &mdash; 2010</h4>
-          <p class="resume-item-copy">Major in Information Technology Management. With many CS classes.</p>
+          <h4 class="resume-item-details" itemprop="description">Baccalauréat en administration des affaires (BAA) &bull; 2006 &mdash; 2010</h4>
+          <p class="resume-item-copy">Gestion des systèmes d'information organisationnels</p>
         </div>
 
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">Cegep de l'Abitibi Témiscamingue</h3>
-          <h4 class="resume-item-details" itemprop="description">College degree in computer science &bull; 1999 &mdash; 2003</h4>
-          <p class="resume-item-copy">This formation is mainly a foundation in computer science, programming and databases modelling</p>
+          <h4 class="resume-item-details" itemprop="description">Technique en informatique &bull; 1999 &mdash; 2003</h4>
         </div>
 
       </section>
@@ -177,8 +188,7 @@
 
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">Association de la sécurité de l'information du Québec. (<a href="https://asiq.org">ASIQ</a>)</h3>
-          <h4 class="resume-item-details">Scholarship grant; 2008-2009</h4>
-          <p class="resume-item-copy">Awarded for the quality of a paper on Single Sign-on during a security and risk management class at Laval University.</p>
+          <h4 class="resume-item-details">Bourse d'étude; 2008-2009</h4>
         </div>
 
         <!-- <div class="resume-item"> -->

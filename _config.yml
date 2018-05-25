@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Pascal Cadotte Michaud"
+description: "Curriculum Vitae Pascal Cadotte Michaud"
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "false"
 resume_name:                    "Pascal Cadotte Michaud"
-resume_title:                   "Software developer"
+resume_title:                   "Développeur Logiciel"
 resume_contact_email:           "pascal.cadotte@gmail.com"
 resume_header_contact_info:     "38 rue John-Breakey, Québec, QC, G6Z 7M8, CANADA | 418-558-2236 | pascal.cadotte@gmail.com"
 
@@ -25,8 +25,8 @@ resume_looking_for_work:        "yes"
 # comment out to hide
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
+resume_section_projects:        false
+resume_section_skills:          false
 resume_section_recognition:     true
 resume_section_links:           true
 resume_section_associations:    false
